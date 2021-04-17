@@ -1,4 +1,4 @@
-package main;
+package fr.insa.tttsat.projet_info;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ public class TriangleTerrain {
 		this.start = start;
 		this.middle = middle;
 		this.end = end;
-		this.id = "TT"+newId(); //identificateur : "TTN" où N est un entier
+		this.id = "TT"+newId(); //identificateur : "TTN" oï¿½ N est un entier
 		listeTriangleTerrain.add(this);
 	}
 	

@@ -1,4 +1,4 @@
-package main;
+package fr.insa.tttsat.projet_info;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,7 @@ public class TypeBarre {
 		this.longMax = longMax;
 		this.resTension = resTension;
 		this.resCompression = resCompression;
-		this.id = "TB"+newId(); //identificateur : "TBN" où N est un entier
+		this.id = "TB"+newId(); //identificateur : "TBN" oï¿½ N est un entier
 		listeTypeBarre.add(this);
 	}
 

@@ -1,9 +1,9 @@
-package main;
+package fr.insa.tttsat.projet_info;
 
 import java.util.ArrayList;
 import java.util.List;
 
-//On présuppose que le terrain est déjà créé (on ne peut pas mettre de neouds simples dans un triangle).
+//On prï¿½suppose que le terrain est dï¿½jï¿½ crï¿½ï¿½ (on ne peut pas mettre de neouds simples dans un triangle).
 
 public abstract class Noeud {//On n'utilise pas Noeud en tant que tel, cela permet de factoriser l'id de tous les points
 
@@ -12,7 +12,7 @@ public abstract class Noeud {//On n'utilise pas Noeud en tant que tel, cela perm
 	
 	public Noeud() {
 		super();
-		this.id = "S"+newId(); //Identificateur : "SN" où N est un entier
+		this.id = "S"+newId(); //Identificateur : "SN" oï¿½ N est un entier
 		listeNoeud.add(this); //Correspondance entre l'index de la list et l'id
 	}
 	

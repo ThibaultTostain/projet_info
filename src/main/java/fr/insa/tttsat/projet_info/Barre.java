@@ -1,4 +1,4 @@
-package main;
+package fr.insa.tttsat.projet_info;
 
 import java.awt.Color;
 import java.util.ArrayList;
@@ -22,7 +22,7 @@ public class Barre {
 		this.end = end;
 		this.type = type;
 		this.color = color;
-		this.id = "B"+newId(); //identificateur : "BN" où N est un entier
+		this.id = "B"+newId(); //identificateur : "BN" oï¿½ N est un entier
 		listeBarre.add(this);
 	}
 	

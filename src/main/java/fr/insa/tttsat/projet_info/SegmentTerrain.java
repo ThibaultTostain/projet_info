@@ -1,4 +1,4 @@
-package main;
+package fr.insa.tttsat.projet_info;
 
 public class SegmentTerrain {
 	

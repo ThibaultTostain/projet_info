@@ -1,4 +1,4 @@
-package main;
+package fr.insa.tttsat.projet_info;
 
 import java.util.List;
 
