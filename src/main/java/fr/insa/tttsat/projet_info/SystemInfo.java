@@ -1,4 +1,4 @@
-package fr.insa.thibault.projet_info;
+package fr.insa.tttsat.projet_info;
 
 public class SystemInfo {
 
