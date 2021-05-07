@@ -2,6 +2,9 @@ package fr.insa.tttsat.projet_info;
 
 public class SegmentTerrain {
 	
+    
+    // Test github
+    
 	private PointTerrain start, end;
 
 	public SegmentTerrain(PointTerrain start, PointTerrain end) {
